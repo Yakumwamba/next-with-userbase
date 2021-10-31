@@ -8,7 +8,7 @@ function MyApp({ Component, pageProps }) {
   const [user, setUser] = useState()
 
   useEffect(() => {
-    userbase.init({ appId: process.env.NEXT_PUBLIC_USERBASE_APP_ID })
+    userbase.init({ appId: "ffc3d1fc-458d-40a6-9dff-06bab5234992" })
   }, [])
 
   return (
